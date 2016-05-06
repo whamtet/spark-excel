@@ -10,7 +10,7 @@ spark_excel.core.spitDataframe.invoke("my-file.xlsx", Array("Sheet1", "Another S
 
 ## Download
 
-[Here](https://github.com/whamtet/spark-excel/releases/download/0.1.0-SNAPSHOT/spark-excel-0.1.0-SNAPSHOT-standalone.jars).
+[Here](https://github.com/whamtet/spark-excel/releases/download/0.1.0-SNAPSHOT/spark-excel-0.1.0-SNAPSHOT-standalone.jar).
 
 ## License
 
