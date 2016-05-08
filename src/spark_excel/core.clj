@@ -14,7 +14,7 @@
   [f tabs & dataframes]
   (when (empty? dataframes) (throw (Exception. "Supply Dataframes!")))
   (let [
-         tabs (concat tabs (repeatedly gensym))
+         tabs (concat tabs (repeatedly #(str (gensym))))
          sheets (zipmap tabs (map df->array dataframes))
          ]
     (-> (build-workbook (workbook-xssf) sheets) (save f))))
