@@ -5,7 +5,7 @@ Quickly spit Spark Dataframes to Excel
 ## Usage
 
 ```scala
-spark_excel.core.spitDataframe.invoke("my-file.xlsx", Array("Sheet1", "Another Sheet"), dataframe1, dataframe2, ...)
+spark_excel.core.spitDataframe.invoke("my-file.xlsx", Array("Sheet1", "Another Sheet"), Array(dataframe1, dataframe2, ...))
 ```
 
 ## Download
