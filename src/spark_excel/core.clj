@@ -11,7 +11,7 @@
 
 (defn spit-df
   "Spark Dataframe to Array"
-  [f tabs & dataframes]
+  [f tabs dataframes]
   (when (empty? dataframes) (throw (Exception. "Supply Dataframes!")))
   (let [
          tabs (concat tabs (repeatedly #(str (gensym))))
